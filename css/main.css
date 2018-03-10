@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px; }
+
+.header {
+  width: 100%;
+  height: 980px;
+  background-color: #222;
+  background-image: url(../img/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff; }
+
+.header__menu {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 60px 10px 0; }
+
+.menu__top {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.menu__slogan {
+  display: inline-block;
+  font-size: 12px;
+  padding-left: 30px;
+  width: 148px; }
+
+.menu__showroom {
+  display: inline-block;
+  width: 152px;
+  border-bottom: 1px solid #88c56f;
+  padding-bottom: 10px; }
+
+.menu__link-image {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle; }
+
+.menu__link {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 14px;
+  display: inline-block;
+  padding-left: 20px; }
+
+.menu__phone {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 28px;
+  margin-left: 55px; }
+
+.menu__bottom {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 26px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.menu__nav {
+  height: 50px;
+  line-height: 50px; }
+
+.menu__nav-item {
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  padding-right: 14px;
+  text-decoration: none; }
+
+.button {
+  width: 212px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #88c56f;
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 50px; }
+
+@media screen and (max-width: 978px) {
+  .menu__hide {
+    display: none; } }
+
+@media screen and (max-width: 810px) {
+  .menu__phone {
+    font-size: 20px;
+    margin-left: 30px; } }
+
+@media screen and (max-width: 660px) {
+  .menu__hide-small {
+    display: none; } }
+
+@media screen and (max-width: 404px) {
+  .button {
+    width: 170px; }
+  .menu__logo {
+    width: 140px; } }
