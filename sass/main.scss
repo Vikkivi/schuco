@@ -10,81 +10,8 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
-.header{
-    width: 100%;
-    height: 980px;
-    background-color: #222;
-    background-image: url(../img/bg1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-}
-.header__menu{
-    max-width: 1150px;
-    margin: 0 auto;
-    padding: 60px 10px 0;
-}
-.menu__top{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: space-between;
-}
-.menu__slogan{
-    display: inline-block;
-    font-size: 12px;
-    padding-left: 30px;
-    width: 148px;
-}
-.menu__showroom{
-    display: inline-block;
-    width: 152px;
-    border-bottom: 1px solid $accent;
-    padding-bottom: 10px;
-}
-.menu__link-image{
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-}
-.menu__link{
-    color: #fff;
-    text-decoration: underline;
-    font-size: 14px;
-    display: inline-block;
-    padding-left: 20px;
-}
-.menu__phone{
-    display: inline-block;
-    color: #fff;
-    text-decoration: none;
-    font-size: 28px;
-    margin-left: 55px;
-}
-.menu__bottom{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    padding-top: 26px;
-    justify-content: space-between;
 
-}
-.menu__nav{
-    height: 50px;
-    line-height: 50px;
-}
-.menu__nav-item{
-    color: #fff;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 300;
-    padding-right: 14px;
-    text-decoration: none;
-}
+
 .button{
     width: 212px;
     height: 50px;
@@ -98,54 +25,7 @@ body{
     text-decoration: none;
     border-radius: 50px;
 }
-
-@media screen and (max-width: 978px) {
-    .menu__hide{
-        display: none;
-    }
-}
-@media screen and (max-width: 810px) {
-    .menu__phone{
-        font-size: 20px;
-        margin-left: 30px;
-    }
-   
-}
-@media screen and (max-width: 660px) {
-    .menu__hide-small{
-        display: none;
-    }
-}
-@media screen and (max-width: 404px) {
-    .button{
-        width: 170px;
-    }
-    .menu__logo{
-        width: 140px;
-    }
-}
-
-
-.header__content{
-    max-width: 1102px;
-    margin: 0 auto;
-    padding: 160px 10px 0; 
-    text-align: center;
-}
-.header__text{
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 26px;
-}
-.header__big-text{
-    font-size: 44px;
-    font-weight: 600;
-    line-height: 56px;
-    display: block;
-    margin-top: 68px;
-    text-transform: uppercase;
-}
-.button-big{
+.button--big{
     background-color: $accent;
     width: 370px;
     height: 60px;
@@ -156,24 +36,77 @@ body{
     display: block;
     margin: 60px auto;
 }
-.header__scroll{
-    margin-top: 110px;
+
+
+.section{
+    width: 100%;
+    display: block;
+}
+.content-wrapper{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 100px 10px 0;
+}
+.chapter{
+    text-align: center;
+    padding-bottom: 74px;
+}
+.chapter__line{
+    background-color: $accent;
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+    margin: 28px auto;
+}
+.chapter__head{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+}
+.catalog__wrapper, .catalog__wrapper--inner {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.catalog__item{
+    width: 270px;
+    padding-bottom: 67px;
+    margin: 0 auto;
+    &--big{
+        width: 570px;
+    }
 }
 
-@media screen and (max-width: 600px) {
-    .header__big-text{
-        font-size: 26px;
-        line-height: 34px;
+.catalog__wrapper--inner{
+    width: 565px;
+    padding-left: 5px;
+    margin: 0 auto;
+}
+.catalog__name{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 26px;
+    padding-bottom: 17px;
+}
+.catalog__description{
+    font-size: 14px;
+    font-weight: 300;
+}
+@media screen and (max-width: 566px) {
+    .catalog__image, .catalog__item--big{
+        width: 270px;
+    }
+    .catalog__wrapper--inner{
+        padding-left: 0;
     }
 }
-@media screen and (max-width: 384px) {
-    .button-big{
-        width: 300px;
-    }
-    .header__big-text{
-        font-size: 24px;
-    }
-}
+
+
 
 
 
