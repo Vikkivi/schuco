@@ -1,3 +1,24 @@
+@font-face {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Open_Sans/OpenSans-Regular.eot");
+  src: url("../fonts/Open_Sans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Open_Sans/OpenSans-Regular.woff") format("woff"), url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/Open_Sans/OpenSans-Bold.eot");
+  src: url("../fonts/Open_Sans/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Open_Sans/OpenSans-Bold.woff") format("woff"), url("../fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Open_Sans/OpenSans-Light.eot");
+  src: url("../fonts/Open_Sans/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Open_Sans/OpenSans-Light.woff") format("woff"), url("../fonts/Open_Sans/OpenSans-Light.ttf") format("truetype"); }
+
 * {
   margin: 0;
   padding: 0; }
@@ -117,3 +138,14 @@ body {
     width: 170px; }
   .menu__logo {
     width: 140px; } }
+
+.header__content {
+  max-width: 1102px;
+  margin: 0 auto;
+  padding: 160px 10px 0;
+  text-align: center; }
+
+.header__text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px; }
