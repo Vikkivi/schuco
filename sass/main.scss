@@ -137,7 +137,43 @@ body{
     font-weight: 600;
     line-height: 26px;
 }
+.header__big-text{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 56px;
+    display: block;
+    margin-top: 68px;
+    text-transform: uppercase;
+}
+.button-big{
+    background-color: $accent;
+    width: 370px;
+    height: 60px;
+    line-height: 60px;
+    color: #0f3102;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin: 60px auto;
+}
+.header__scroll{
+    margin-top: 110px;
+}
 
+@media screen and (max-width: 600px) {
+    .header__big-text{
+        font-size: 26px;
+        line-height: 34px;
+    }
+}
+@media screen and (max-width: 384px) {
+    .button-big{
+        width: 300px;
+    }
+    .header__big-text{
+        font-size: 24px;
+    }
+}
 
 
 
