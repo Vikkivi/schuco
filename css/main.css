@@ -56,13 +56,14 @@ body {
   display: block; }
 
 .content-wrapper {
-  max-width: 1150px;
+  max-width: 1170px;
   margin: 0 auto;
-  padding: 100px 10px 0; }
+  padding: 0 10px 0; }
 
 .chapter {
   text-align: center;
-  padding-bottom: 74px; }
+  padding-bottom: 74px;
+  padding-top: 100px; }
 
 .chapter__line {
   background-color: #88c56f;
@@ -76,6 +77,75 @@ body {
   color: #000;
   font-size: 30px;
   font-weight: 600; }
+
+.question {
+  width: 100%;
+  background-color: #333;
+  background-image: url(../img/fon2.png);
+  background-size: cover;
+  padding: 80px 100px 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.question__text {
+  width: 351px;
+  padding-bottom: 10px; }
+
+.question__head {
+  color: #fff; }
+
+.question__info {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 41px; }
+
+.callback__input {
+  width: 230px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 2px;
+  border: none;
+  padding: 20px;
+  margin-bottom: 10px; }
+  .callback__input--right {
+    margin-left: 30px; }
+
+.callback__button {
+  display: block;
+  background-color: transparent;
+  margin-top: 40px;
+  margin-right: 0;
+  margin-left: auto;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  line-height: 40px;
+  width: 120px; }
+  .callback__button:hover {
+    cursor: pointer; }
+
+@media screen and (max-width: 796px) {
+  .callback__input--right {
+    margin-left: 0; } }
+
+@media screen and (max-width: 492px) {
+  .question {
+    padding: 80px 50px 50px; } }
 
 .header {
   width: 100%;
@@ -231,7 +301,6 @@ body {
 
 .catalog__wrapper--inner {
   width: 565px;
-  padding-left: 5px;
   margin: 0 auto; }
 
 .catalog__name {
@@ -246,6 +315,4 @@ body {
 
 @media screen and (max-width: 566px) {
   .catalog__image, .catalog__item--big {
-    width: 270px; }
-  .catalog__wrapper--inner {
-    padding-left: 0; } }
+    width: 270px; } }
