@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Schuco</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
   </head>
   <body>
     
@@ -134,7 +135,7 @@
            <div class="chapter">
                <img src="img/compass.png" alt="" class="chapter__icon">
                 <div class="chapter__line"></div>
-                <h2 class="chapter__head chapter__head--white" id="catalog">Информация архитекторам</h2>
+                <h2 class="chapter__head chapter__head--white">Информация архитекторам</h2>
            </div>
            <div class="architect__wrapper">
                <div class="architect__text">
@@ -147,6 +148,53 @@
                <img src="img/architect.png" alt="" class="architect__image">
            </div>
        </div> 
+    </section>
+    
+    <section class="portfolio">
+         <div class="content-wrapper">
+           <div class="chapter">
+               <img src="img/portfolio.png" alt="portfolio-icon:" class="chapter__icon">
+                <div class="chapter__line"></div>
+                <h2 class="chapter__head">Наши выполненные проекты</h2>
+           </div>
+        <div class="portfolio__wrapper">
+            <div class="portfolio__item">
+                <img src="img/home1.png" alt="home1" class="portfolio__image">
+                <p class="portfolio__name">Private home</p>
+                <p class="portfolio__info"><span class="portfolio__light">Расположение:</span> Germany, Winnenden</p>
+            </div>
+            <div class="portfolio__item">
+                <img src="img/home2.png" alt="home2" class="portfolio__image">
+                <p class="portfolio__name">Private home las calinas</p>
+                <p class="portfolio__info"><span class="portfolio__light">Расположение:</span> Spain, Orihuela</p>
+            </div>
+            <div class="portfolio__item">
+                <img src="img/home3.png" alt="home3" class="portfolio__image">
+                <p class="portfolio__name">Eco Berrini</p>
+                <p class="portfolio__info"><span class="portfolio__light">Расположение:</span> Brazil, Sao Paulo</p>
+            </div>
+            <div class="portfolio__item">
+                <img src="img/home4.png" alt="home4" class="portfolio__image">
+                <p class="portfolio__name">Private home</p>
+                <p class="portfolio__info"><span class="portfolio__light">Расположение:</span> Germany, Winnenden</p>
+            </div>
+            <div class="portfolio__form-wrapper">
+               <h2 class="chapter__head chapter__head--white">Форма обратной связи</h2>
+               <p class="portfolio__form-text question__info">Заполните поля и мы свяжемся с вами в течение 15 минут</p>
+                <form action="" class="portfolio__form callback">
+                      <div class="callback__block">
+                           <input type="text" class="callback__input" placeholder="Укажите Ваше имя"><br>
+                           <input type="phone" class="callback__input" placeholder="Ваш номер телефона"><br>
+                           <input type="email" class="callback__input" placeholder="Адрес эл. почты*">
+                       </div>
+                       <div class="callback__block callback__block--right">
+                           <textarea name="" id="" cols="30" rows="10" class="callback__input callback__input--right callback__textarea" placeholder="Ваше сообщение*"></textarea>
+                           <button class="callback__button portfolio__button">Отправить</button>
+                       </div>
+                   </form>
+            </div>
+        </div>
+        </div>
     </section>
     
     
